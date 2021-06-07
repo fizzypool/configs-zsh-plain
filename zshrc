@@ -70,7 +70,7 @@ function setupZSHWithTracking() {
   setupZSH
   end=$(gdate +%s%N)
   runtime=$(((end-start)/1000000000.0))
-  echo "Shell loading time: $runtime ms"
+  echo "Shell loading time: $runtime s"
 }
 
-setupZSHWithTracking
+setupZSH
